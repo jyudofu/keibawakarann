@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>競馬わからん</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1 class="title">競馬わからん</h1>
+        <div class="main">
+            <div class="select_area">
+                <h2 class="select_text">出走数を選んでください。</h2>
+                <select class="keiba_select" name="num" id="num">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                </select>
+            </div>
+            <button class="roll_button">わからん！</button>
+        </div>
+
+        <div class="roll_result">
+            <div class="result_section">
+                <h2 class="result_text">単勝・複勝</h2>
+                <ul class="result_list" id="tannpuku">
+                </ul>
+            </div>
+            <div class="result_section">
+                <h2 class="result_text">ワイド</h2>
+                <ul class="result_list" id="wide">
+                </ul>
+            </div>
+            <div class="result_section">
+                <h2 class="result_text">３連単・３連複</h2>
+                <ul class="result_list" id="sannrenn">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+</html>

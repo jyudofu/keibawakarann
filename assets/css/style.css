@@ -1,0 +1,74 @@
+.wrapper {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 38px;
+}
+.main {
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.select_text {
+    margin-bottom: 20px;
+}
+.keiba_select {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.roll_button {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #3cb371;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.roll_result {
+    margin: auto;
+    padding: 20px;
+    max-width: 514px;
+    border-radius: 25px;
+    border: 3px solid #000;
+}
+.result_list {
+    display: flex;
+    justify-content: center;
+}
+.result_list li {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+.result_list li::after {
+    content: "-";
+    position: absolute;
+    right: -24px;
+}
+.result_list li:last-child:after {
+    content: "";
+}
+.result_list li:first-child {
+    margin-left: 0;
+}
+.result_section {
+    margin-bottom: 30px;
+}
+.result_text {
+    margin-bottom: 20px;
+}
