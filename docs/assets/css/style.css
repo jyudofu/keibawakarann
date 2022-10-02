@@ -72,3 +72,14 @@
 .result_text {
     margin-bottom: 20px;
 }
+.waku_1 {
+    background-color: #fff;
+}
+.waku_2 {
+    color: #fff;
+    background-color: #000;
+}
+.waku_3 {
+    color: #fff;
+    background-color: #e95556;
+}

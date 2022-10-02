@@ -1,15 +1,15 @@
 $(function () {
     function tannpuku(val) {
-        $('#tannpuku').append('<li>' + val[0] + '</li>');
+        $('#tannpuku').append('<li>'+ val[0] + '</li>');
     }
     function wide(val) {
-        $('#wide').append('<li>' + val[0] + '</li>');
-        $('#wide').append('<li>' + val[1] + '</li>');
+        $('#wide').append('<li>'+ val[0] + '</li>');
+        $('#wide').append('<li>'+ val[1] + '</li>');
     }
     function sannrenn(val) {
-        $('#sannrenn').append('<li>' + val[0] + '</li>');
-        $('#sannrenn').append('<li>' + val[1] + '</li>');
-        $('#sannrenn').append('<li>' + val[2] + '</li>');
+        $('#sannrenn').append('<li>'+ val[0] + '</li>');
+        $('#sannrenn').append('<li>'+ val[1] + '</li>');
+        $('#sannrenn').append('<li>'+ val[2] + '</li>');
     }
     function generate_randomx(count) {
         var tannpukuval = new Array();
@@ -62,6 +62,7 @@ $(function () {
         $('#tannpuku li').remove();
         $('#wide li').remove();
         $('#sannrenn li').remove();
+        $('.roll_result').addClass("tousuu_"+ count);
         generate_randomx(count);
     });
 });
